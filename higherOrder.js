@@ -1,9 +1,9 @@
-const companies = [
+const companies= [
     {
         name: "Company One",
         category: "Finance",
         start: 1981,
-        end: 2003
+        end: 2010
     },
     {
         name: "Company Two",
@@ -82,7 +82,7 @@ const filteredAges1 = ages.filter(function(age){
         return true;
     }
 });
-const filteredAges2 = ages.filter(age => age < 20)
+const filteredAges2 = ages.filter(age => age < 25)
 console.log(filteredAges2);
 
 const retailCompanies = companies.filter(function(company){
