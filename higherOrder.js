@@ -82,7 +82,7 @@ const filteredAges1 = ages.filter(function(age){
         return true;
     }
 });
-const filteredAges2 = ages.filter(age => age < 25)
+const filteredAges2 = ages.filter(age => age < 30)
 console.log(filteredAges2);
 
 const retailCompanies = companies.filter(function(company){
